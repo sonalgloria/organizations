@@ -1,0 +1,732 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    margin: 0px;
+}
+
+header{
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.519);
+}
+
+.container{
+    width:1200px;
+    margin: auto;
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.header-logo{
+    width:200px;
+    height: 65px;
+}
+
+.header-nav {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    padding: 8px 10px;
+    margin: 0px 15px;
+    color: #000;
+    font-weight: 800;
+    border-radius: 15px;
+}
+
+.header-nav a:hover{
+    background-color:rgb(34, 103, 121);
+    color: white;
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.519);
+}
+ 
+/* Header section Over */
+
+/* Title - Start */
+
+
+.image{
+    position: relative;
+    height: 500px;
+}
+
+.image img{
+    width: 100%;
+    height: 500px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.image .img-txt{
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    color: blanchedalmond;
+    z-index: 2;
+    font-style: italic;
+}
+
+.image .img-txt h1{
+    font-size: 30px;
+}
+
+/* End of Title */
+
+/* Features Section */
+
+.feature{
+    border: 0.7px solid rgb(132, 127, 158);
+}
+
+.feature .frame{
+    position: relative;
+    flex: 0 0 24.88%;
+    border: 0.5px solid whitesmoke;
+    height: 300px;
+}
+
+.feature .frame .face{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.feature .frame .face1{
+    background-color: rgb(34, 103, 121);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform-origin: bottom;
+}
+
+.feature .frame .face1 img{
+    height: 130px;
+    width: auto;
+    padding-top: 15px;
+}
+
+.feature .frame .face1 h3{
+    color: white;
+    font-weight: 800;
+}
+
+.feature .frame .face1 p{
+    color: white;
+    font-weight: 500;
+    font-size: medium; 
+    padding: 20px;
+    font-style: oblique;  
+}
+
+.frame .face1:hover{
+    transform: translateY(-100%) rotateX(90deg);
+    transition: 0.8s;
+}
+
+.frame .face1:hover{
+    background-color: tomato;
+}
+
+.frame:hover {
+    background-color: whitesmoke;
+}
+
+.face .face2 {
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    transform-origin: top;
+}
+
+.face2 p {
+    font-size: medium;
+    padding: 100px 20px;
+    font-weight: 800;
+}
+
+/* end of Features */
+
+/* Start - About US */
+
+.about-txt{
+    text-align: center;
+}
+
+.about h2{
+    color: rgb(34, 103, 121);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.about h2:after {
+    display: block;
+    height: 4px;
+    width: 170px;
+    background-color: rgb(34, 103, 121);
+    content: "";
+    margin: 0 auto;
+    margin-top: 17px;
+    border-radius: 10px;
+}
+
+.about h3{
+    font-style: italic;
+}
+
+.about p{
+    text-align: justify;
+    font-size: medium;
+}
+
+.about img{
+    height: 400px;
+    width: 1200px;
+}
+
+/* end of About Us */
+
+/* Start - Our Amenities */
+.aminities{
+    text-align: center;
+}
+.aminities h2{
+    color: rgb(34, 103, 121);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.aminities h2:after {
+    display: block;
+    height: 4px;
+    width: 240px;
+    background-color: rgb(34, 103, 121);
+    content: "";
+    margin: 0 auto;
+    margin-top: 17px;
+    border-radius: 10px;
+}
+
+.aminities h3{
+    font-style: italic;
+}
+
+.aminities p{
+    text-align: justify;
+    font-size: medium;
+}
+
+.aminities .frame{
+    position: relative;
+    flex: 0 0 31%;
+    border: 0.5px solid whitesmoke;
+    height: 300px;
+}
+
+.space{
+    margin-right: 37px;
+    margin-bottom: 30px;
+}
+
+.aminities .frame .face{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1.5px solid lightsteelblue;
+}
+
+.aminities .frame .face1{
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform-origin: bottom;
+}
+
+.aminities .frame .face1 img{
+    height: 130px;
+    width: auto;
+    padding-top: 15px;
+}
+
+.aminities .frame .face1 h3{
+    color: rgb(34, 103, 121);
+    font-weight: 800;
+}
+
+.aminities .frame .face1 p{
+    color: rgb(34, 103, 121);
+    font-weight: 500;
+    font-size: medium; 
+    padding: 20px;
+    font-style: oblique; 
+    text-align: center; 
+}
+
+.aminities .frame .face1:hover{
+    transform: translateX(-100%) rotateY(270deg);
+    transition: 0.8s;
+}
+
+.aminities .frame .face1:hover{
+    background-color: rgba(34, 104, 121, 0.425);
+}
+
+.aminities .frame:hover {
+    background-color: whitesmoke;
+    color: rgb(34, 103, 121);
+}
+
+.aminities .face .face2 {
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    transform-origin: top;
+}
+
+.aminities .face2 p {
+    font-size: medium;
+    padding: 100px 20px;
+    font-weight: 800;
+}
+
+/* end of our Aminities */
+
+/* Start - galary */
+
+.galary{
+    height: 600px;
+    position: relative;
+}
+
+.left{
+    flex: 0 0 40%;
+}
+
+.galary .left img{
+    width:100%;
+    height: 300px;
+    margin: -2px;
+}
+
+.galary .right img{
+   width:913px;
+    margin: -1px;
+    height: 600px;
+}
+
+.galary .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.galary .left .gtxt-left1{
+    position: absolute;
+    top: 100px;
+    left: 240px;
+    z-index: 2;
+    color: white;
+    font-size: 25px;
+}
+
+.galary .left .gtxt-left2{
+    position: absolute;
+    top: 400px;
+    left: 240px;
+    z-index: 2;
+    color: white;
+    font-size: 25px;
+}
+
+.galary .right .gtxt-right{
+    position: absolute;
+    top: 250px;
+    left: 1050px;
+    z-index: 2;
+    color: white;
+    font-size: 25px;
+}
+/* end of our galary */
+
+/* Start - What we offer */
+
+.we-offer{
+    text-align: center;
+}
+.we-offer h2{
+    color: rgb(34, 103, 121);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.we-offer h2:after {
+    display: block;
+    height: 4px;
+    width: 240px;
+    background-color: rgb(34, 103, 121);
+    content: "";
+    margin: 0 auto;
+    margin-top: 17px;
+    border-radius: 10px;
+}
+
+.we-offer p{
+    text-align: justify;
+    font-size: medium;
+}
+
+.we-offer .voffer1{
+    flex: 0 0 30%;
+    border: 1.5px solid lightsteelblue;
+}
+
+.we-offer .voffer1 img{
+    width:380px;
+    height:200px;
+    border-bottom: 1.5px solid lightsteelblue;
+}
+
+.we-offer .voffer1 h3{
+    border-bottom: 1.5px solid lightsteelblue;
+    margin: 2px 0;
+    padding: 4px 0;
+    font-style: oblique;
+}
+
+.we-offer .voffer1 p{
+    margin: 8px 8px;
+    padding: 8px 6px;
+}
+
+.gap{
+   margin-right: 23.52px;
+}
+
+
+.we-offer .meeting{
+    width:600px;
+    border: 1.5px solid lightsteelblue;
+    margin: 20px auto;
+}
+
+.we-offer .meeting img{
+    width:600px;
+    height:550px;
+    border-bottom: 1.5px solid lightsteelblue;
+}
+
+.we-offer .meeting h3{
+    border-bottom: 1.5px solid lightsteelblue;
+    margin: 2px 0;
+    padding: 4px 0;
+    font-style: oblique;
+}
+
+.we-offer .meeting p{
+    margin: 8px 8px;
+    padding: 8px 6px;
+}
+
+/* end of what we offer */
+
+/* Start - Our clients */
+.our-client{
+    /* padding-left: 40px; */
+    justify-content: center;
+}
+
+.our-client img{
+    width:350px;
+    height:100px;
+    border: 1.5px solid lightsteelblue;
+    margin: 5px;
+}
+
+
+/* end of our clients */
+
+/* Start - Testimonials */
+
+.testimonies{
+    margin-top: 10px;
+}
+
+.containerbg{
+    width:1200px;
+    margin: auto;
+    background-color: rgba(205, 230, 236, 0.555);
+}
+
+.testimonies-txt{
+    text-align: center;
+}
+
+.testimonies h2{
+    color: rgb(34, 103, 121);
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.testimonies h2:after {
+    display: block;
+    height: 4px;
+    width: 200px;
+    background-color: rgb(34, 103, 121);
+    content: "";
+    margin: 0 auto;
+    margin-top: 17px;
+    border-radius: 10px;
+}
+
+.testimonies h3{
+    font-style: italic;
+}
+
+.box{
+    width: 1000px;
+    margin: 5px auto;
+}
+
+.box1{
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    font-style: italic;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5px 0;
+}
+
+
+
+/* end of Testimonials */
+
+/* Start - img2 */
+
+.image2{
+    position: relative;
+    height: 500px;
+    margin: 20px 0;
+}
+
+.image2 img{
+    width: 100%;
+    height: 500px;
+}
+
+.image2 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.image2 .img2-txt{
+    position: absolute;
+    top: 4%;
+    left: 40%;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+.image2 .img2-txt h2{
+    font-size: 30px;
+}
+
+.image2 .img2-txt a{
+    text-decoration: none;
+    padding: 8px 10px;
+    margin: 0px 15px;
+    color: #000;
+    font-weight: 800;
+    border-radius: 15px;
+    background-color:rgb(34, 103, 121);
+    color: white;
+}
+
+/* end of img2 */
+
+/* Start - Benifits */
+
+.benifits{
+    height:500px;
+    margin: 40px 0;
+}
+
+.benifits img{
+    height: 490px;
+    width: 440px;
+}
+
+.benifits .benifits-txt{
+    flex: 0 0 60%;
+    margin-left: 35px;
+}
+
+.benifits .benifits-txt h3{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.benifits .benifits-txt p{
+    font-size: medium;
+    font-weight: 600;
+}
+
+.benifits .benifits-txt .p1{
+    text-align: justify;
+    font-style: oblique;
+}
+
+.benifits .benifits-txt .p2{
+    padding-left: 23px;
+}
+
+/* end of benifits */
+
+/* Start - photos */
+
+.photos{
+    background-color: rgb(8, 50, 61);
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.photos img{
+    margin: 10px;
+    height: 160px;
+    width: 175px;
+}
+/* end of photos */
+
+/* Start - footer */
+
+footer{
+    background-color: rgb(8, 50, 61);
+    height: 360px;
+    padding: 20px;
+}
+
+footer .footer-txt{
+    flex: 0 0 30%; 
+    border-right: 2.5px solid white;
+    padding: 0 20px;
+}
+
+footer .footer-txt img{
+    width:270px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+footer .footer-txt h3{
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+}
+
+footer .footer-txt p{
+    font-size: 14px;
+    color: white;
+    text-align: justify;
+}
+
+footer .quick-links{
+   text-align: center;
+    flex: 0 0 25%; 
+    border-right: 2.5px solid white;
+    padding: 0 10px;
+}
+
+footer .quick-links h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+}
+footer .quick-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer .quick-links i{
+    color: rgb(176, 233, 243);
+    font-size: 25px;
+    margin: 20px;
+}
+
+footer .form{
+    flex: 0 0 28%; 
+    padding: 0 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 70px;
+}
+
+footer .form .form-box{
+    padding: 15px;
+}
+
+footer .form .form-box input{
+    width: 180px;
+    height: 22px;
+    padding: 6px 2px;
+    margin: 5px 2px;
+}
+
+footer .form .form-box select{
+    width: 187px;
+    height: 38px;
+    padding: 6px 2px;
+    margin: 5px 2px;
+}
+
+footer .form .form-box textarea{
+    width: 383px;
+    height: 80px;
+}
+
+footer .form .form-box button{
+    width: 384px;
+    height: 33px;
+    border-radius: 5px;
+    background-color: rgb(8, 50, 61);
+    color: white;
+    margin-top: 12px;
+}
+
+footer .copyright{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+/* end of footer */
+
